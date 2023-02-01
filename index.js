@@ -134,3 +134,14 @@ function camelCase(str) {
 }
 const testStr = 'Hello world foo bar'
 console.log(camelCase(testStr))
+
+
+module.exports = {
+  capitalize,
+  allCaps,
+  capitalizeWords,
+  removeExtraSpaces,
+  kebob,
+  snake,
+  camelCase
+};
